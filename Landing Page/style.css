@@ -1,0 +1,59 @@
+body {
+    background-image: url('background-pixel.png');
+    font-family: 'PixelFont', sans-serif;
+  }
+  
+  header h1 {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  nav ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    background-color: #444;
+  }
+  
+  main h2 {
+    color: #444;
+    text-align: center;
+    margin: 50px 0 20px;
+  }
+  
+  main img {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    border-radius: 4px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  section#contact p {
+    text-align: center;
+    margin: 50px 0;
+  }
+  
+  section#contact p a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s;
+  }
+  
+  section#contact p a:hover {
+    background-color: #444;
+  }
+  
